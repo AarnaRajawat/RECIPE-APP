@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar'
 import TrandingSlider from './Components/TrandingSlider'
 import { useParams,Link } from 'react-router-dom'
 const SearchElement = () => {
-    // console.log(useParams())
+
     const {searchTerm} = useParams();
     const [data,setData]=useState([])
 
